@@ -52,5 +52,5 @@ There are N number of people standing in row(like a points in a straight line)
 - Test Case 3: `[1, 2, 5, 6, 7]` → Expected: `2 3`
 
 ## How to run
-javac src/Main.java
-java src/Main
+- javac src/Main.java
+- java src/Main
