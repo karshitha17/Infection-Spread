@@ -19,7 +19,7 @@ Task:
 
  ##OUTPUT FORMAT
  
- . For each iteration we get the output in the format of
+ ###For each iteration we get the output in the format of
     minInfected maxInfected
 
  ###SAMPLE INPUT
@@ -37,6 +37,26 @@ Task:
  1 1         <!-- minInfected,maxInfected of TestCase1 -->
  3 3         <!-- minInfected,maxInfected of TestCase2 -->
  2 3         <!-- minInfected,maxInfected of TestCase3 -->
+
+ ##PROJECT STRUCTURE
  
+ Infection-Spread/
+├── src/Main.java           <!-- main code -->
+├── test/MainTest.java      <!-- optional test cases -->
+├── samples/input1.txt
+├── samples/output1.txt
+├── README.md               <!-- this file -->
+              
+##SOLUTION
+
+###Sort the positions.
+###Count consecutive people within distance ≤2 (sliding window or left/right spread).
+###Track minimum and maximum infected people across all possible scenarios.
+
+ ##TEST CASES
+
+ ###TestCase 1:[3, 6] -> Expected : 1 1
+ ###TestCase 2:[1, 3, 5] -> Expected : 3 3
+ ###TestCase 3:[1, 2, 5, 6, 7] -> Expected : 2 3
  
 
