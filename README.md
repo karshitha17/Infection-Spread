@@ -29,9 +29,9 @@ There are N number of people standing in row(like a points in a straight line)
  1 2 5 6 7   
 
 ## SAMPLE OUTPUT
- 1 1 
- 3 3
- 2 3         
+ `1 1`
+ `3 3`
+ `2 3`         
 
 ## PROJECT STRUCTURE
  Infection-Spread/
