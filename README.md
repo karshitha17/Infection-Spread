@@ -53,6 +53,11 @@ There are N number of people standing in row(like a points in a straight line)
 
 ## How to run
 - Firstly open your command prompt and clone my github link
-      -
+      - https://github.com/karshitha17/Infection-Spread
+- Navigate to the project file
+      - cd Infection-Spread
+- Compile the java code   
       -javac src/Main.java
-- java src/Main
+- Run the code   
+      - java src/Main
+- Now enter the input to get the output  
