@@ -26,17 +26,17 @@ public class Main {
     }
     public static void main(String[] args) {
         // 🔹 Built-in test cases (TDD style manual tests)
-        System.out.println("Running internal tests...");
-        int[] test1 = getMinMaxInfected(new int[]{3, 6});
-        System.out.println("Expected: 1 1, Got: " + test1[0] + " " + test1[1]);
+        // System.out.println("Running internal tests...");
+        // int[] test1 = getMinMaxInfected(new int[]{3, 6});
+        // System.out.println("Expected: 1 1, Got: " + test1[0] + " " + test1[1]);
 
-        int[] test2 = getMinMaxInfected(new int[]{1, 3, 5});
-        System.out.println("Expected: 3 3, Got: " + test2[0] + " " + test2[1]);
+        // int[] test2 = getMinMaxInfected(new int[]{1, 3, 5});
+        // System.out.println("Expected: 3 3, Got: " + test2[0] + " " + test2[1]);
 
-        int[] test3 = getMinMaxInfected(new int[]{1, 2, 5, 6, 7});
-        System.out.println("Expected: 2 3, Got: " + test3[0] + " " + test3[1]);
+        // int[] test3 = getMinMaxInfected(new int[]{1, 2, 5, 6, 7});
+        // System.out.println("Expected: 2 3, Got: " + test3[0] + " " + test3[1]);
 
-        System.out.println("\nNow enter input for custom test cases:");
+        // System.out.println("\nNow enter input for custom test cases:");
 
         // User input mode
         Scanner sc = new Scanner(System.in);
