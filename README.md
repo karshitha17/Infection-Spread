@@ -20,26 +20,26 @@ There are N number of people standing in row(like a points in a straight line)
     minInfected maxInfected
 
 ## SAMPLE INPUT
- 3           <!-- Test cases (T) -->
- 2           <!-- First TestCase (n) -->
- 3 6         <!-- Positions (points) -->
- 3           <!-- Second TestCase (n) -->
- 1 3 5       <!-- Positions (points) -->
- 5           <!-- Third TestCase (n) -->
- 1 2 5 6 7   <!-- Positions (points)-->
+ 3            
+ 2           
+ 3 6         
+ 3           
+ 1 3 5       
+ 5           
+ 1 2 5 6 7   
 
 ## SAMPLE OUTPUT
- 1 1         <!-- minInfected,maxInfected of TestCase1 -->
- 3 3         <!-- minInfected,maxInfected of TestCase2 -->
- 2 3         <!-- minInfected,maxInfected of TestCase3 -->
+ 1 1 
+ 3 3
+ 2 3         
 
 ## PROJECT STRUCTURE
  Infection-Spread/
-├── src/Main.java           <!-- main code -->
-├── test/MainTest.java      <!-- optional test cases -->
+├── src/Main.java           
+├── test/MainTest.java      
 ├── samples/input1.txt
 ├── samples/output1.txt
-├── README.md               <!-- this file -->
+├── README.md              
               
 ## SOLUTION
 - Sort the positions.
