@@ -10,4 +10,8 @@ Task:
 . Find the maximum number of people that can be infected
 
 INPUT FORMAT
-. First line(T):
+. First line(T) : Number of test cases
+. For each test case :
+     . line 1(n) : Total number of people
+     . line 2(points) : 
+
