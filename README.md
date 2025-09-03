@@ -16,7 +16,7 @@ There are N number of people standing in row(like a points in a straight line)
   - Line 2(points) : Positions of n people
 
 ## OUTPUT FORMAT 
-- For each test case we get the output in the format of
+- For each test case output format
     `minInfected maxInfected`
 
 ## SAMPLE INPUT
